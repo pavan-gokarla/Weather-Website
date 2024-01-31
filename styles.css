@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(67, 67, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    width: 60%;
+    background-color: white;
+    padding: 60px 30px; 
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+}
+
+.search-area{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+
+}
+
+.temperature h3{
+    display: inline;
+}
+.search-area i{
+    margin-right: 5px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    padding: 12px 8px;
+    border-radius: 12px;
+    width: 90%;
+}
+
+.btn{
+    padding: 6px 10px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.date{
+    background-color: rgb(190, 160, 160);
+    padding: 6px;
+    border-radius: 12px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.condition{
+    display: flex;
+    margin-top: 12px;
+    gap: 6px;
+    justify-content: center;
+}
+
+.temperature h3{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-c{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    background-color: bisque;
+    padding: 12px 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px;
+    transition: 0.5s;
+    width: 30%;
+}
+
+.info-c:hover{
+    box-shadow: 0 0 20px;
+}
+
+.showerror{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.alternate-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
